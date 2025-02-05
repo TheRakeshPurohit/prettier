@@ -1,7 +1,6 @@
 ---
-id: version-stable-editors
+id: editors
 title: Editor Integration
-original_id: editors
 ---
 
 To get the most out of Prettier, it’s recommended to run it from your editor.
@@ -25,6 +24,12 @@ Check out the [prettier-emacs](https://github.com/prettier/prettier-emacs) repo,
 [vim-prettier](https://github.com/prettier/vim-prettier) is a Prettier-specific Vim plugin. [Neoformat](https://github.com/sbdchd/neoformat), [ALE](https://github.com/w0rp/ale), and [coc-prettier](https://github.com/neoclide/coc-prettier) are multi-language Vim linter/formatter plugins that support Prettier.
 
 For more details see [the Vim setup guide](vim.md).
+
+## Helix
+
+A formatter can be specified in your [Helix language configuration](https://docs.helix-editor.com/languages.html#language-configuration), which will take precedence over any language servers.
+
+For more details see the [Helix external binary formatter configuration for Prettier](https://github.com/helix-editor/helix/wiki/External-formatter-configuration#prettier).
 
 ## Sublime Text
 
